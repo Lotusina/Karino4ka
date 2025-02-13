@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KarinaLove</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./yesStyle.css">
+    <link rel="icon" href="./img/logo.png" type="image/png">
+</head>
+<body>
+    
+    <div class="main">
+        <div class = "heart"></div>
+        <div class="text1">
+        </div>
+        <br><br><br><br>
+        <div class="spinner" style="width: 860px; margin: 0 auto;" >
+            <marquee behavior="scroll" direction="left" style="padding: 5px;">
+                <img src="./img/marque1.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque2.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque3.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque4.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque5.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque6.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque7.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque8.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque9.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque10.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque11.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque12.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque13.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque14.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque15.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque16.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque17.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque18.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque19.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque20.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque21.jpg" class="img-same-size" alt="Natural" />
+                <img src="./img/marque22.jpg" class="img-same-size" alt="Natural" />
+              </marquee>
+        </div>
+    
+    <div class="container">
+          <div id="parent_popup">
+            <div id="popup">
+              <p style="cursor: pointer; text-align: right; font-size: 30px;" onclick="document.getElementById('parent_popup').style.display='none';">&#10060</p>
+              <iframe height="100%" width="100%" src="https://88615d68-d280-4182-8d65-d40bfc40cd65.i143.xyz"></iframe>
+            </div>
+          </div>
+        <div class="text" >
+            <h1 class = "header_text">Солнышко, ты прелесть, будешь моей валентинкой?</h1>
+        </div>
+        <br><br><br><br>
+        <div class = "buttons">
+            <button class="btn" id = "yesButton" onclick="nextPage()">Да</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()">Нет</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+
+                function moveButton() {
+                    let x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                    let y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`;
+                }
+            </script>
+        </div>
+
+        <div></div>
+    </div>
+
+
+    </div>
+<script>
+    
+</script>
+</body>
+</html>
